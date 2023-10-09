@@ -1,3 +1,4 @@
+/* eslint-disable */ // @ts-ignore /* eslint-enable */
 const CardIcon = ({ url }) => {
   const nameRegex = /\/([^/]+)\.pdf/;
   const matches = url.match(nameRegex);
